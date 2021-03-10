@@ -34,7 +34,7 @@ class S2EmailAndPhoneNumber extends Component {
   render() {
     return (
       <div className="card shadow-lg" style={{ borderRadius: "25px" }}>
-        <Progress percent={25} status="active" showInfo={false} className="pbar"/>
+        <Progress percent={25} status="active" showInfo={true} className="pbar"/>
         <CommonComponents
           currentStep={this.props.currentStep}
           totalSteps={this.props.totalSteps}
