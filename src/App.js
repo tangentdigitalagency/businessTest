@@ -27,9 +27,8 @@ class App extends Component {
   state = {
     postData: {
       //extra entries
-      lp_campaign_id:"5fe10f48a0ba0",
-      lp_campaign_key:"vfB6nWKXFx9L3jPyZc7t",
-      Key: "rRkWg9.WrP.Ahm.Ic9hNr9kZruQMcRpNruwIc9tVxVpWrV4MgexMl8QKHpEE",
+      lp_campaign_id:"603456261cc2a",
+      lp_campaign_key:"XvV3P4yGnNRzpwQxFtCM",
       TYPE: "38",
       Sub_ID: "12",
       Pub_ID: "13",
@@ -94,18 +93,9 @@ class App extends Component {
     console.log(this.state);
   };
 
-
-
-
-
-
-
-
-
-
   UNSAFE_componentWillUpdate  = () => {
     console.log(this.state.postData);
-  };
+  }
 
   render() {
 
@@ -122,7 +112,7 @@ class App extends Component {
           <div className="container">
             <img
               // @ts-ignore
-              src={require("./Assets/logo.png")}
+              src={require("./Assets/logoq.png")}
               className="m-4"
               width="200px"
               alt=""
@@ -131,8 +121,8 @@ class App extends Component {
               <li className="nav-item">
               <Button type="primary" size="middle" icon={<PhoneOutlined 
 // @ts-ignore
-              rotate="90" />} href={"tel:+18554344762"} >
-                (855) 434-4762
+              rotate="90" />} href={"tel:+18552190784"} >
+                  (855) 219-0784
               </Button>
               </li>
             </ul>
@@ -437,7 +427,7 @@ class App extends Component {
                   }}
                 >
                   <a
-                    href="https://quotehound.com/"
+                    href="https://quantumassurance.com/"
                     // @ts-ignore
                     style={{ color: "rgb(166,166,166)", fontWeight: "400" }}
                   >
@@ -455,7 +445,7 @@ class App extends Component {
                   style={{ fontSize: "15px", color: "rgb(166, 166, 166)" }}
                 >
                   <a
-                    href="https://quotehound.com/privacy-policy"
+                    href="https://quantumassurance.com/privacy-policy"
                     // @ts-ignore
                     style={{ color: "rgb(166,166,166)", fontWeight: "400" }}
                   >
@@ -477,7 +467,7 @@ class App extends Component {
                   }}
                 >
                   <a
-                    href="https://quotehound.com/terms-conditions"
+                    href="https://quantumassurance.com/terms-conditions"
                     // @ts-ignore
                     style={{ color: "rgb(166,166,166)", fontWeight: "400" }}
                   >
