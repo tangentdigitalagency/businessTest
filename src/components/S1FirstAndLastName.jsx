@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import {Form, Button, Input, Progress} from "antd";
+import {Form, Button, Input, Progress, Typography} from "antd";
+import Grid from "@material-ui/core/Grid";
+
 import CommonComponents from "./CommonComponents"; 
 import {Link} from "react-router-dom"; 
 import {Redirect} from "react-router-dom"; 
@@ -26,7 +28,7 @@ class S1FirstAndLastName extends Component {
    
     return (
       <div className="card shadow-lg" style={{ borderRadius: "25px" }}>
-        <Progress percent={12.5} status="active" showInfo={true} className="pbar"/>
+        <Progress percent={12} status="active" showInfo={true} className="pbar"/>
         <CommonComponents
           currentStep={this.props.currentStep}
           totalSteps={this.props.totalSteps}
@@ -110,9 +112,14 @@ class S1FirstAndLastName extends Component {
               </Form.Item>
             {/* </Link> */}
             </Form>
+
+           
           </div>
         </div>
       </div>
+    
+
+      
     );
   }
 }
